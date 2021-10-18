@@ -1,0 +1,2 @@
+En principio deberia de funcionar todo bien pero dado que a la hora de probar la lectura de dispositivos mediante bluetooth
+el campo mediante el cual se busca un IBeacon en concreto es el nombre pero al utilizar aplicaciones que simulan ser IBeacons, estas pese a especificar un nombre, el campo nombre lo dejan como null, es por ello que en esta app temporalmente se filtra el IBeacon mediante su direccion MAC, para saber mas en detalle, en la clase ServicioEscucharIBeacons.java, se explica de mejor forma lo que hay que modificar disculpa las molestias
